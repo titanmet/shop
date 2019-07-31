@@ -7,8 +7,8 @@ required_plugins.each do |plugin|
 end
 
 domains = {
-  frontend: 'shop.dev',
-  backend:  'back.shop.dev'
+  frontend: 'shop.test',
+  backend:  'back.shop.test'
 }
 
 config = {
