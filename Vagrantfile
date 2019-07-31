@@ -12,8 +12,7 @@ domains = {
 }
 
 config = {
-  local: './vagrant/config/vagrant-local.yml',
-  example: './vagrant/config/vagrant-local.example.yml'
+  local: './vagrant/config/vagrant-local.yml'
 }
 
 # copy config from example if local config not exists
