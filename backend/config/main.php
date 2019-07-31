@@ -46,5 +46,16 @@ return [
         ],
 
     ],
+    'as access' => [
+        'class' => 'yii\filters\AccessControl',
+        'except' => ['site/login','site/error'],
+        'rules' => [
+            [
+               'actions' =>  ['logout','index'],
+                'allow' => true,
+                'roles' => ['@'],
+            ],
+        ],
+    ],
     'params' => $params,
 ];

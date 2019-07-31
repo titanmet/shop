@@ -42,6 +42,7 @@ return [
             'showScriptName' => false,
             'rules' => [
                 ''=> 'site/index',
+                '<_a:login|logout>' => 'site/<_a>',
             ],
         ],
 
